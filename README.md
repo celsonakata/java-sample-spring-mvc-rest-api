@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/celsonakata/java-sample-spring-mvc-rest-api.svg)](https://travis-ci.com/celsonakata/java-sample-spring-mvc-rest-api)
+
 # Sample Java REST API with Spring MVC framework
 
 ## Description
