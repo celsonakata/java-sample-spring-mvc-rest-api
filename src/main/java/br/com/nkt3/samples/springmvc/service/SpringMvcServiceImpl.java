@@ -7,15 +7,15 @@ import java.util.stream.StreamSupport;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.nkt3.samples.springmvc.dao.BookDao;
 import br.com.nkt3.samples.springmvc.exception.ServiceException;
 import br.com.nkt3.samples.springmvc.model.Book;
+import br.com.nkt3.samples.springmvc.repository.BookRepository;
 
 @Service
 public class SpringMvcServiceImpl implements SpringMvcService {
 
 	@Autowired
-	private BookDao bookDao;
+	private BookRepository bookDao;
 	
 	@Override
 	public List<Book> getBooks() throws ServiceException {
